@@ -1,0 +1,35 @@
+.workspace :is(button, input, select):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+.workspace button { cursor: pointer; min-height: 40px; }
+.workspace input, .workspace select { min-width: 0; max-width: 100%; }
+.workspace { overflow-wrap: anywhere; }
+.dialog {
+  width: min(512px, calc(100vw - 32px));
+  max-height: calc(100dvh - 48px);
+  margin: auto;
+  padding: 32px;
+  border: 1px solid var(--color-rule);
+  border-radius: 18px;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  overflow-y: auto;
+  box-shadow: 0 30px 100px #030e2666;
+}
+.dialog > * + * { margin-top: 24px; }
+.dialog::backdrop { background: #020c22a6; }
+.wideDialog { width: min(720px, calc(100vw - 32px)); }
+.dialog :is(button, input, select):focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.dialog button { cursor: pointer; min-height: 40px; }
+.dialog input, .dialog select { font-size: 16px; min-height: 44px; min-width: 0; }
+.dialog table { width: 100%; table-layout: fixed; overflow-wrap: anywhere; }
+.dialog table :is(th, td):first-child { width: 40%; }
+@media (max-width: 600px) {
+  .dialog { padding: 22px; }
+  .dialog :global(.grid-cols-2) { grid-template-columns: 1fr; }
+  .dialog table { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .workspace *, .dialog * { animation: none !important; transition: none !important; }
+}
