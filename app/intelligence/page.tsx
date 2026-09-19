@@ -65,7 +65,7 @@ export default function IntelligencePage() {
                   {/* Number + Category */}
                   <div className="lg:col-span-2 space-y-2">
                     <span className="font-mono-tech text-[10px] font-bold text-[var(--color-rule-strong)]">
-                      [{String(idx + 1).padStart(2, "0")}]
+                      
                     </span>
                     <div>
                       <span

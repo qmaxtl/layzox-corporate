@@ -19,7 +19,7 @@ export default function CookiePolicyPage() {
             Cookies & browser storage
           </h1>
           <p className="font-mono-tech text-xs text-[var(--color-ink-tertiary)] mt-2">
-            LEGAL ENTITY: {COMPANY.legalName} · JURISDICTION: {COMPANY.corporateInfo.jurisdiction}
+            : {COMPANY.legalName} · JURISDICTION: {COMPANY.corporateInfo.jurisdiction}
           </p>
         </div>
 

@@ -77,11 +77,11 @@ export const COMPANY: CompanyDetails = {
   corporateInfo: {
     cinPlaceholder: "[CIN — Registered under the Indian Companies Act]",
     gstinPlaceholder: "[GSTIN — Configured upon contract engagement]",
-    jurisdiction: "Republic of India",
+    jurisdiction: "",
     registeredState: "India",
     country: "India",
     registrationNotice:
-      "Layzox India Pvt Ltd is an incorporated technology company registered under the Indian Companies Act.",
+      "",
   },
   principles: [
     {

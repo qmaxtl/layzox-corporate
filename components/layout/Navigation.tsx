@@ -22,7 +22,7 @@ function BrandLogo({ preload = false }: { preload?: boolean }) {
       alt="LAYZOX — Technology for a Brighter Tomorrow"
       width={1620}
       height={402}
-      sizes="(max-width: 900px) 142px, 164px"
+      sizes="(max-width: 900px) 180px, 370px"
       preload={preload}
       className="navigation-logo-image"
     />

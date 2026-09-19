@@ -19,7 +19,7 @@ export default function TermsOfUsePage() {
             Terms of Use
           </h1>
           <p className="font-mono-tech text-xs text-[var(--color-ink-tertiary)] mt-2">
-            LEGAL ENTITY: {COMPANY.legalName} · JURISDICTION: {COMPANY.corporateInfo.jurisdiction}
+            : {COMPANY.legalName} · JURISDICTION: {COMPANY.corporateInfo.jurisdiction}
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function TermsOfUsePage() {
           <section className="space-y-4">
             <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">1. Agreement to Terms</h2>
             <p>
-              By accessing or using the website of <strong>{COMPANY.legalName}</strong> (accessible at <code>layzox.com</code>), you agree to be bound by these Terms of Use and all applicable laws and regulations of the Republic of India and relevant international jurisdictions.
+              By accessing or using the website of <strong>{COMPANY.legalName}</strong> (accessible at <code>layzox.com</code>), you agree to be bound by these Terms of Use and all applicable laws and regulations of the and relevant international jurisdictions.
             </p>
           </section>
 
@@ -55,7 +55,7 @@ export default function TermsOfUsePage() {
           <section className="space-y-4">
             <h2 className="font-display text-xl font-bold text-[var(--color-ink)]">5. Governing Law & Jurisdiction</h2>
             <p>
-              These Terms shall be governed by and construed in accordance with the laws of the Republic of India. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the competent courts in India.
+              These Terms shall be governed by and construed in accordance with the laws of the. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the competent courts in India.
             </p>
           </section>
         </div>

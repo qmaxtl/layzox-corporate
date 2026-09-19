@@ -43,7 +43,7 @@ export default function ContactPage() {
 
             {/* Project enquiry */}
             <div className="py-10 border-b border-[var(--color-rule)] space-y-4">
-              <span className="section-label">[01] Project Enquiry</span>
+              <span className="section-label">Project Enquiry</span>
               <h2 className="font-display text-2xl sm:text-3xl font-black text-[var(--color-ink)] tracking-tight">
                 Build something with LAYZOX
               </h2>
@@ -61,7 +61,7 @@ export default function ContactPage() {
 
             {/* General contact */}
             <div className="py-10 border-b border-[var(--color-rule)] space-y-4">
-              <span className="section-label">[02] General & Direct</span>
+              <span className="section-label">General & Direct</span>
               <h2 className="font-display text-2xl sm:text-3xl font-black text-[var(--color-ink)] tracking-tight">
                 Direct correspondence
               </h2>
@@ -82,7 +82,7 @@ export default function ContactPage() {
 
             {/* Careers */}
             <div className="py-10 space-y-4">
-              <span className="section-label">[03] Careers & Collaborations</span>
+              <span className="section-label">Careers & Collaborations</span>
               <h2 className="font-display text-2xl sm:text-3xl font-black text-[var(--color-ink)] tracking-tight">
                 Work with LAYZOX
               </h2>
@@ -111,10 +111,10 @@ export default function ContactPage() {
               <p className="section-label">Company details</p>
               <div className="space-y-4 font-mono-tech text-xs">
                 {[
-                  { label: "Legal entity", value: COMPANY.legalName },
+                  { label: "", value: COMPANY.legalName },
                   { label: "Jurisdiction", value: COMPANY.corporateInfo.jurisdiction },
                   { label: "Contact", value: COMPANY.contact.general },
-                  { label: "Model", value: COMPANY.contact.operatingModel },
+                  
                 ].map((item) => (
                   <div key={item.label} className="flex flex-col gap-0.5">
                     <span className="text-[9px] uppercase tracking-widest text-[var(--color-ink-tertiary)]">

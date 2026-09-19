@@ -4,7 +4,7 @@
   position: fixed;
   inset: 0 0 auto;
   z-index: 60;
-  height: 88px;
+  height: 112px;
   color: #102442;
   background: #fffbf5;
   border-bottom: 1px solid rgba(16, 36, 66, .1);
@@ -19,7 +19,7 @@
   margin-inline: auto;
 }
 .navigation-logo { display: inline-flex; flex: 0 0 auto; align-items: center; }
-.navigation-logo-image { display: block; width: 164px; height: auto; }
+.navigation-logo-image { display: block; width: 370px; height: auto; }
 .desktop-navigation { display: flex; align-items: center; gap: 24px; }
 .navigation-link {
   display: inline-flex;
@@ -174,7 +174,7 @@
 @media (max-width: 900px) {
   .site-navigation { height: 76px; }
   .navigation-inner { width: calc(100% - 48px); }
-  .navigation-logo-image { width: 142px; height: auto; }
+  .navigation-logo-image { width: 180px; height: auto; }
   .desktop-navigation, .navigation-contact { display: none; }
   .mobile-menu-trigger { display: inline-flex; }
   .navigation-actions { gap: 10px; }

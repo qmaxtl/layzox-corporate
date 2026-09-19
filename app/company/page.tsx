@@ -41,7 +41,7 @@ export default function CompanyPage() {
         <section className="py-16 sm:py-20 border-b border-[var(--color-rule)]" aria-labelledby="story-heading">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
             <div className="lg:col-span-4 space-y-3">
-              <span className="section-label">[01] Who we are</span>
+              <span className="section-label">Who we are</span>
               <h2 id="story-heading" className="font-display text-3xl sm:text-4xl font-black text-[var(--color-ink)] tracking-tight">
                 The LAYZOX approach
               </h2>
@@ -62,7 +62,7 @@ export default function CompanyPage() {
               </p>
               <div className="pt-2 p-5 bg-[var(--color-canvas-subtle)] border-l-2 border-[var(--color-accent)]">
                 <p className="font-mono-tech text-[10px] font-bold uppercase tracking-wider text-[var(--color-ink-tertiary)] mb-1">
-                  Legal entity
+                  
                 </p>
                 <p className="font-mono-tech text-sm text-[var(--color-ink)] font-bold">
                   {COMPANY.legalName} · {COMPANY.corporateInfo.jurisdiction}
@@ -78,7 +78,7 @@ export default function CompanyPage() {
         {/* 02 — Principles */}
         <section id="principles" className="py-16 sm:py-20 border-b border-[var(--color-rule)]" aria-labelledby="principles-heading">
           <div className="mb-12">
-            <span className="section-label mb-3 block">[02] How we work</span>
+            <span className="section-label mb-3 block">How we work</span>
             <h2 id="principles-heading" className="font-display font-medium text-[var(--color-ink)] leading-[1.05] tracking-[-0.04em]" style={{ fontSize: "clamp(36px, 5vw, 68px)" }}>
               A considered approach.
               <br />
@@ -115,7 +115,7 @@ export default function CompanyPage() {
         <section className="py-16 sm:py-20 border-b border-[var(--color-rule)]" aria-labelledby="governance-heading">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
             <div className="lg:col-span-4 space-y-3">
-              <span className="section-label">[03] Statutory details</span>
+              <span className="section-label">Statutory details</span>
               <h2 id="governance-heading" className="font-display text-3xl sm:text-4xl font-black text-[var(--color-ink)] tracking-tight">
                 Company Information
               </h2>
@@ -170,7 +170,7 @@ export default function CompanyPage() {
         {/* 04 — Objectives */}
         <section className="py-16 sm:py-20" aria-labelledby="objectives-heading">
           <div className="mb-12">
-            <span className="section-label mb-3 block">[04] What we optimize for</span>
+            <span className="section-label mb-3 block">What we optimize for</span>
             <h2 id="objectives-heading" className="font-display font-medium text-[var(--color-ink)] leading-[1.05] tracking-[-0.04em]" style={{ fontSize: "clamp(32px, 5vw, 68px)" }}>
               The details that matter.
             </h2>
